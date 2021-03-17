@@ -1,0 +1,42 @@
+@mixin flexColCenter() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@mixin text($size:14px, $lHeight:17px, $weight:400) {
+    font-size: $size;
+    line-height: $lHeight;
+    font-weight: $weight;
+}
+@mixin textUpp ($size:14px, $lHeight:17px, $weight:400) {
+    font-size: $size;
+    line-height: $lHeight;
+    font-weight: $weight;
+    text-transform: uppercase;
+}
+
+@mixin flexRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexStart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@mixin flexSpBetw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin offerBackGr {
+    background-repeat: no-repeat;
+    background-color: #514643;
+    background-size: cover;
+}
+@mixin transition {
+    transition-duration: 0.5s;
+    transition-delay: 0.3s; 
+}

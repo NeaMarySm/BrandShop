@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Lato', Arial, sans-serif;
+    display: grid;
+    grid-template-rows: min-content 1fr  min-content;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.container {
+    padding: 0 calc(50% - 1140px / 2);
+  }
+.visually-hidden {
+    position: absolute;
+    left: -999999px;
+    width: 0px;
+    height: 0;
+    visibility: hidden;
+  }
+
+

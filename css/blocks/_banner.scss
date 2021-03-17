@@ -1,0 +1,41 @@
+.banner {
+    background-color: #F1E4E6;
+    display: flex;
+    justify-content: space-around;
+}
+.banner-img{
+    width: 50%;
+    min-height: $bannerHeight;
+    background-image: url(../images/main-page_img.png);
+    background-repeat: no-repeat;
+    background-position: 50%;  
+}
+.banner-text-area{
+    width: 50%;
+    min-height: $bannerHeight;
+    
+}
+.banner-text {
+    margin-left: /*64px*/ 6%;
+    margin-top: 292px;
+    padding-left: 16px;
+    border-left: $pink solid 12px;
+     &:hover {
+         transform: rotateX(360deg);
+         transition-duration: 1s;
+     }
+}
+.banner-text h2 {
+    margin: 0;
+    color: $black;
+    @include textUpp(48px, 54px, 900);
+    letter-spacing: 0.5px;
+}
+.banner-text p {
+    margin: 0;
+    color: $black;
+    @include textUpp(32px, 34px, 700);
+}
+.banner-text p span {
+    color: $pink;
+}

@@ -1,0 +1,108 @@
+.button {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+} 
+.button-browse {
+    width: 212px;
+    height: 48px;
+    border: $pink solid 1px;
+    color:#F26376;
+    @include flexRow;
+    margin-top: 47px;
+    cursor: pointer;
+    letter-spacing: 1.1px;
+    @include transition;
+        &:hover {
+            background-color: $pink;
+            color: #FFFFFF;
+        }
+}
+button.button-add {
+    @include text(16px, 19px, 400);
+    margin-bottom: 63px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 11px;
+    fill: $darkPink;
+    @include transition;
+     &:hover {
+        fill:#fff;
+     }
+}
+.button-cat-hover {
+    width: 139px;
+    height: 44px;
+    border: 1px solid #fff;
+    @include flexRow;
+    @include text();
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: transparent;
+     svg {
+         margin-right: 11px;
+     }
+     
+}
+.arrow-button {
+    width: 47px;
+    height: 47px;
+    color: #000;
+    background-color: #D8D8D8;
+    position: absolute;
+    font-size: 24px;
+    cursor: pointer;
+    @include transition;
+
+     &:hover{
+        color: $darkPink;
+     }
+     &-left {
+        left: 0;
+     }
+     &-right {
+        right: 0;
+     }
+}
+/* cart */
+button.delete-button {
+    font-size: 26px;
+    color: #575757;
+    cursor: pointer;
+    transition-duration: 0.5s;
+     &:hover {
+        color: $colorA4;
+     }
+}
+.cart-button {
+    min-width: 235px;
+    height: 50px;
+    @include textUpp (14px, 17px, 300);
+    color: #000;
+    border: $borderGray;
+    @include flexRow;
+    cursor: pointer;
+    @include transition;
+     &:hover {
+         background-color: $colorA4;
+         color: #fff;
+     }
+}
+.checkout-button {
+    margin: 0;
+    width: 273px;
+    height: 50px;
+    background-color: $darkPink;
+    color: #fff;
+    @include textUpp(16px, 19px, 300);
+    @include flexRow;
+    cursor: pointer;
+    @include transition;
+     &:hover {
+        background-color: #FFFFFF;
+        color: $darkPink;
+     }
+}

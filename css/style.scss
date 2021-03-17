@@ -1,0 +1,33 @@
+@import "main/var";
+@import "main/mixin";
+
+@import "blocks/general";
+@import "blocks/buttons";
+@import "blocks/inputs";
+@import "blocks/dropdowns";
+  /* header*/
+@import "blocks/header";
+/*burger-menu*/
+@import "blocks/burger-menu";
+/*banner*/
+@import "blocks/banner";
+/* offer */
+@import "blocks/offer";
+/* page-header */
+@import "blocks/page-header";
+/* catalog */
+@import "blocks/catalog";
+/* benefits */
+@import "blocks/benefits";
+/* feedback */
+@import "blocks/feedback";
+  /* footer */
+@import "blocks/footer";
+/* product page */
+@import "blocks/product";
+/* cart page */
+@import "blocks/cart";
+/* registration page */
+@import "blocks/registration";
+
+@import "main/media";

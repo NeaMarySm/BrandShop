@@ -1,0 +1,34 @@
+$pink: #F16D7F;
+$darkPink: #EF5B70;
+$bgPink: #F8F3F4;
+$containerWidth: 1140px;
+$inputWidth: 360px;
+$headerHeight: 75px;
+$bannerHeight: 764px;
+$colorA4:#A4A4A4;
+$borderGray: 1px solid $colorA4;
+$lightGray: #EBEBEB;
+$black: #222222;
+$black2: #222224;
+$textWhite: #FBFBFB;
+$borderColor: #EAEAEA;
+$filterGray:#6F6E6E;
+$cartWidth: 652px;
+$shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13);
+@keyframes jump {
+
+    20% {
+        transform: translateX(100%);
+    }
+    40% {
+        transform: translateY(-150%);
+    }
+    80% {
+         transform: translateX(-100%);
+         
+     }
+    100% {
+        transform: translateX(0);
+    }
+    
+  }

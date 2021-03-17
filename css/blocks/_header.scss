@@ -1,0 +1,40 @@
+.header {
+    background-color: $black;
+    min-height: $headerHeight;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 0;
+}
+.header-item {
+    display: inline-block;
+}
+.logo-icon {
+    padding-right: 38px;
+}
+.menu {
+    float: right;
+    padding-top: 9px; 
+}
+.menu .header-item {
+    padding-left: 29px;
+}
+.cart {
+    position: relative;
+    padding-right: 9px;
+}
+.cart-amount {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: $pink;
+    text-align: center;
+    color: #ffffff;
+    @include text(12px, 14px, 400);
+    vertical-align: middle;
+    padding-top: 3px;
+    position: absolute;
+    top: -7px;
+    right: 0px;
+}
